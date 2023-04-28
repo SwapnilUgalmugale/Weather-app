@@ -1,6 +1,9 @@
 
 import './App.css';
 import Search from './components/search/search';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 
 function App() {
   
