@@ -15,6 +15,20 @@
   padding: 5px 20px;
 }
 
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    margin-left: auto;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    
+  }
+
 .icon-small {
   width: 40px;
 }
