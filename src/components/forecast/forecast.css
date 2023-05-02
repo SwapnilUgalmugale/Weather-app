@@ -2,3 +2,15 @@
     font-size: 23px;
     font-weight: bold;
 }
+
+.daily-item {
+    background-color: #2a2a446f;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 20px;
+}
