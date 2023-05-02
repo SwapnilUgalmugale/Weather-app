@@ -22,7 +22,7 @@ const Forecast = ({ data }) => {
     Week_Days.slice(0, dayInAWeek)
   );
 
-  //check whether data is getting or not on console 
+  //check whether data is getting or not on console
   //console.log(forecastDays);
 
   return (
@@ -40,8 +40,13 @@ const Forecast = ({ data }) => {
                     src={`icons/${item.weather[0].icon}.png`}
                   />
                   <label className="day">{forecastDays[idx]}</label>
-                  <label className="description"> { item.weather[0].description }</label>
-
+                  <label className="description">
+                    {item.weather[0].description}
+                  </label>
+                  <label className="min-max">
+                    {item.main.temp_min}°C /{" "}
+                    {item.main.temp_max}°C
+                  </label>
                 </div>
               </AccordionItemButton>
             </AccordionItemHeading>
