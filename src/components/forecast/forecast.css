@@ -4,7 +4,7 @@
 }
 
 .daily-item {
-    background-color: #2a2a446f;
+    background-color: #e6f3ff;
     border-radius: 15px;
     height: 40px;
     margin: 5px;
@@ -13,4 +13,15 @@
     cursor: pointer;
     font-size: 14px;
     padding: 5px 20px;
+}
+
+.icon-small{
+    width: 40px;
+}
+
+.day{
+    color: #212121;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
 }
